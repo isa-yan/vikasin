@@ -42,15 +42,30 @@ nav ul li a{
 
 .main{
     width:100vw;
-    padding:5%;
+    padding-left:20vw;
+    padding-right:20vw;
     display:flex;
     justify-content:center;
     align-items:center;
     justify-self:center;
 }
 
-.logo{
-    justify-self:left;
-    align-self:top;
-    padding-right:3%;
+.start-logo{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    padding:0vh 10vw 0vh 3vw;
+    justify-content:space-around;
 }
+
+.mission{
+    font:150% 'DM Sans',sans-serif;
+    
+}
+
+.logo{
+    align-self:flex-start;
+    align-self:top;
+}
+
+.img{}
