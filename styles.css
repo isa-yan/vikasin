@@ -42,12 +42,11 @@ nav ul li a{
 
 .main{
     width:100vw;
-    padding-left:20vw;
-    padding-right:20vw;
     display:flex;
     justify-content:center;
     align-items:center;
     justify-self:center;
+
 }
 
 .start-logo{
@@ -56,10 +55,12 @@ nav ul li a{
     flex-direction:column;
     padding:0vh 10vw 0vh 3vw;
     justify-content:space-around;
+    margin-left:10vw;
 }
 
 .mission{
-    font:150% 'DM Sans',sans-serif;
+    font:200% 'DM Sans',sans-serif;
+    margin-left:2vw;
     
 }
 
@@ -68,4 +69,9 @@ nav ul li a{
     align-self:top;
 }
 
-.img{}
+.image{
+    margin-right:10vw;
+    margin-top:6vh;
+    border-radius:20px;
+
+}
