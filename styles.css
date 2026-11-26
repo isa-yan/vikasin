@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    padding:0;
+
+}
+
+nav ul{
+    display:flex;
+    flex-direction:row;
+    padding:0%;
+    position:fixed;
+    list-style-type:none;
+    justify-content:space-around;
+    background-color:yellow;
+    width:100vw;
+    margin-top:0px;
+    height:5%;
+
+}
+
+nav ul li{
+    color:green;
+    text-decoration:none;
+    margin:0px 15px 0px 15px;
+    padding:5px;
+    font:150% Arial;
+
+}
+
