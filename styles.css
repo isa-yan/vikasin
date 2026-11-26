@@ -1,6 +1,7 @@
 body{
     margin:0;
     padding:0;
+    background-color:#ffffff;
 
 }
 
@@ -11,19 +12,45 @@ nav ul{
     position:fixed;
     list-style-type:none;
     justify-content:space-around;
-    background-color:yellow;
+    background-color:#d8b9b9;
     width:100vw;
     margin-top:0px;
     height:5%;
 
 }
 
+nav ul li:hover{
+    background-color:#ca9c9b;
+}
+
 nav ul li{
-    color:green;
     text-decoration:none;
     margin:0px 15px 0px 15px;
-    padding:5px;
-    font:150% Arial;
+    padding:10px;
+    font:150% 'DM Sans',sans-serif;
+    border-radius:10px;
+    transition:background-color 0.3s ease-out 100ms;
+    display:flex;
+    align-items:center;
 
 }
 
+nav ul li a{
+    text-decoration:none;
+    color:black;
+}
+
+.main{
+    width:100vw;
+    padding:5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-self:center;
+}
+
+.logo{
+    justify-self:left;
+    align-self:top;
+    padding-right:3%;
+}
