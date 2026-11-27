@@ -1,7 +1,16 @@
+:root{
+    --orange-pink:#EAD4C4;
+    --light-pink:#D3A5A5;
+    --dark-pink:#AF7978;
+    --green:#676930;
+    --brown:#492F1E;
+
+}
+
 body{
     margin:0;
     padding:0;
-    background-color:#ffffff;
+    font-family:'DM Sans',sans-serif;
 
 }
 
@@ -12,7 +21,7 @@ nav ul{
     position:fixed;
     list-style-type:none;
     justify-content:space-around;
-    background-color:#d8b9b9;
+    background-color:var(--light-pink);
     width:100vw;
     margin-top:0px;
     height:5%;
@@ -20,14 +29,14 @@ nav ul{
 }
 
 nav ul li:hover{
-    background-color:#ca9c9b;
+    background-color:var(--dark-pink);
 }
 
 nav ul li{
     text-decoration:none;
     margin:0px 15px 0px 15px;
     padding:10px;
-    font:150% 'DM Sans',sans-serif;
+    font-size:1.7rem;
     border-radius:10px;
     transition:background-color 0.3s ease-out 100ms;
     display:flex;
@@ -40,7 +49,7 @@ nav ul li a{
     color:black;
 }
 
-.main{
+main{
     width:100vw;
     display:flex;
     justify-content:center;
@@ -59,7 +68,7 @@ nav ul li a{
 }
 
 .mission{
-    font:200% 'DM Sans',sans-serif;
+    font:1.5rem 'DM Sans',sans-serif;
     margin-left:2vw;
     
 }
@@ -73,5 +82,20 @@ nav ul li a{
     margin-right:10vw;
     margin-top:6vh;
     border-radius:20px;
+
+}
+
+.team{
+    display:flex;
+    flex-direction:column;
+    width:100vw;
+    height:100vh;
+
+}
+
+.portraits{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
 
 }
